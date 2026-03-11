@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+	<default ident="countryIsoCode" value="TW"/>
+	<default ident="inWork" value="01"/>
+	<default ident="issue" value="5.0"/>
+	<default ident="issueNumber" value="001"/>
+	<default ident="languageIsoCode" value="zh"/>
+	<default ident="securityClassification" value="00"/>
+	<default ident="responsiblePartnerCompany" value="財團法人船舶暨海洋產業研發中心"/>
+	<default ident="originator" value="財團法人船舶暨海洋產業研發中心"/>
+</defaults>

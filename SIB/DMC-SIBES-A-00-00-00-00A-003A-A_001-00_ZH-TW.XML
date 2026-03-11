@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+	<!NOTATION PNG SYSTEM "PNG"> 
+	<!ENTITY ICN-SIB-A-00000000-A-SIB-00001-A-001-01 SYSTEM "ICN-SIB-A-00000000-A-SIB-00001-A-001-01.PNG" NDATA PNG> 
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="SIBES" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="003" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="zh" countryIsoCode="TW"/>
+				<issueInfo issueNumber="001" inWork="00"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2025" month="05" day="27"/>
+				<dmTitle>
+					<techName>第一章</techName>
+					<infoName>娛樂系統</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus issueType="new">
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>All</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<description>
+			<levelledPara>
+				<title>娛樂系統</title>
+				<levelledPara>
+					<title>娛樂系統</title>
+					<levelledPara>
+						<title>功能</title>
+						<para>
+							<randomList>
+								<listItem>
+									<para>1.娛樂系統可供艦上官兵收看或收聽影音節目。</para>
+								</listItem>
+								<listItem>
+									<para>2.系統識別區分重要性:非重要系統(NV)。</para>
+								</listItem>
+								<listItem>
+									<para>3.備便狀態:第四級系統。</para>
+								</listItem>
+							</randomList>
+						</para>
+					</levelledPara>
+					<levelledPara>
+						<title>概述</title>
+						<para>娛樂系統包含電視機、影碟機、伴唱系統、立體音響組合及共同天線系統。娛樂系統組成架構如圖。</para>
+						<figureAlts>
+							<figure>
+								<title>娛樂系統組成架構圖</title>
+								<graphic infoEntityIdent="ICN-SIB-A-00000000-A-SIB-00001-A-001-01" reproductionWidth="150mm"/>
+							</figure>
+						</figureAlts>
+					</levelledPara>
+					<levelledPara>
+						<title>系統及設備特性</title>
+						<para>(一)娛樂系統設備安裝位置如表</para>
+						<table id="SIB_1-1">
+							<!--表格元素，使用屬性id可對此表格編號-->
+							<title>娛樂系統設備安裝位置</title>
+							<tgroup cols="4">
+								<!--表格行數-->
+								<colspec colname="col1" colwidth="13mm"/>
+								<colspec colname="col2" colwidth="52.5mm"/>
+								<colspec colname="col3" colwidth="40mm"/>
+								<colspec colname="col4" colwidth="40mm"/>
+								<thead>
+									<!--表格標題列-->
+									<row>
+										<entry valign="middle" morerows="1">
+											<para>項次</para>
+										</entry>
+										<entry valign="middle" morerows="1">
+											<para>設備名稱</para>
+										</entry>
+										<entry align="center" namest="col3" nameend="col4">
+											<para>安裝位置</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center">
+											<para>艙間名稱</para>
+										</entry>
+										<entry align="center">
+											<para>艙間編號</para>
+										</entry>
+									</row>
+								</thead>
+								<tbody>
+									<!--表格內容-->
+									<row>
+										<!--每列元素-->
+										<entry align="center" valign="middle">
+											<para>1</para>
+										</entry>
+										<entry valign="middle">
+											<para>影碟機</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>2</para>
+										</entry>
+										<entry valign="middle">
+											<para>伴唱系統(包含麥克風有線無線各兩支)</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>3</para>
+										</entry>
+										<entry valign="middle">
+											<para>立體音響組合</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>4</para>
+										</entry>
+										<entry valign="middle">
+											<para>60吋彩色液晶電視機</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>5</para>
+										</entry>
+										<entry valign="middle">
+											<para>43吋彩色液晶電視機</para>
+										</entry>
+										<entry>
+											<para>艦長室</para>
+											<para>副長室</para>
+										</entry>
+										<entry align="center">
+											<para>1-78-3</para>
+											<para>1-78-4</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>6</para>
+										</entry>
+										<entry valign="middle">
+											<para>桌上型音響</para>
+										</entry>
+										<entry>
+											<para>艦長室</para>
+											<para>副長室</para>
+										</entry>
+										<entry align="center">
+											<para>1-78-3</para>
+											<para>1-78-4</para>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+						<para>(二)影碟機
+						<randomList>
+								<listItem>
+									<para>1.影碟機為2聲道藍光播放機。</para>
+								</listItem>
+								<listItem>
+									<para>2.廠牌：SONY索尼，型號BDP-S1500。</para>
+								</listItem>
+								<listItem>
+									<para>3.影碟機可支援播放藍光DVD、CD、VCD和MP3格式，具USD及HDMI 輸出。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(三)伴唱系統
+						<randomList>
+								<listItem>
+									<para>1.伴唱機為金嗓科技Gloden Voice，型號CPX-900R2，具混音器及升降音階功能。</para>
+								</listItem>
+								<listItem>
+									<para>2.每機包含麥克風，有線、無線各兩支。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(四)立體音響組合
+						<randomList>
+								<listItem>
+									<para>1.伴唱系統擴大機</para>
+									<para>廠牌：KTF，型號RA-7。</para>
+									<para>支援USD、SD卡數位音樂輸入，藍芽3.0EDR及NFC自動感應近場無線傳輸。</para>
+								</listItem>
+								<listItem>
+									<para>2.杜比邏輯環繞聲效擴大機</para>
+									<para>廠牌：DENON，型號AVR-X2700H。</para>
+								</listItem>
+								<listItem>
+									<para>3.前置聲道喇叭</para>
+									<para>廠牌：金大發音響KTF，型號DM-827。</para>
+								</listItem>
+								<listItem>
+									<para>4.戶外防水喇叭</para>
+									<para>廠牌：Ryan，型號PK503。</para>
+								</listItem>
+								<listItem>
+									<para>5.收音機+CD音響</para>
+									<para>廠牌:愷陞King Stage，型號CDJ-140。</para>
+									<para>具CD3、USB插槽，收音機具AM/FM頻段收聽功能。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(五)60吋彩色液晶電視機</para>
+						<para>廠牌：SHARP夏普，型號4T-C60CK1X。</para>
+						<para>(六)43吋彩色液晶電視機</para>
+						<para>廠牌： PANASONIC國際牌，型號TH-43JX650W。</para>
+						<para>(七)桌上型音響</para>
+						<para>廠牌：Panasonic國際牌，型號SC-UA3。</para>
+						<para>具收音機接收，CD撥放功能。</para>
+						<para>(八)電源:娛樂系統設備電源均為AC115V，由裝設艙間內照明系統鄰近插座提供電源。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>關聯系統</title>
+						<para>(一)共同天線系統:電視機、伴唱系統及立體音響內電視訊號、AM/FM收音機訊號，均需接自共同天線系統之接線盒。</para>
+						<para>(二)視訊顯控系統:開放視訊顯控系統之戰情相關資訊可透過轉換開關及電腦，在官員餐廳、艦長室及副長室之電視機上顯示。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>參考文件</title>
+						<para>(一)N03542434B34A3-娛樂設施系統線路圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43400-E-2350-K3II145O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(二)N03542434B54A3-娛樂設施系統裝備佈置圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43400-E-2X24-K3II188A-0</para>
+								</listItem>
+							</randomList></para>
+						<para>(三)N03542434B53A4_R1-娛樂設施系統廠家圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：043400-E-2X31-D3II211C-06</para>
+								</listItem>
+							</randomList></para>
+					</levelledPara>
+				</levelledPara>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>

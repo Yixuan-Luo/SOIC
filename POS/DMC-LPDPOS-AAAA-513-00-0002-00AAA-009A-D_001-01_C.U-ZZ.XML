@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="MODEL" systemDiffCode="A" systemCode="SYS" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="000" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2026" month="02" day="24"/>
+        <dmTitle>
+          <techName/>
+          <infoName>2.1  Languages, Format, and Schedule 語言、格式及時程表</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany>
+        <enterpriseName>組織名稱</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>組織名稱</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="MODEL" systemDiffCode="A" systemCode="SYS" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="000" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <externalPubRef>
+        <externalPubRefIdent>
+          <externalPubCode></externalPubCode>
+          <externalPubTitle></externalPubTitle>
+        </externalPubRefIdent>
+      </externalPubRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <title>2.1  Languages, Format, and Schedule 語言、格式及時程表</title>
+        <levelledPara>
+          <title>2.1 Languages, Format, and Schedule</title>
+          <levelledPara>
+            <title>2.1.1 Languages</title>
+            <para>Unless otherwise specified, language used in drawings and documents shall be in traditional Chinese or English-Chinese bilingualism. If other foreign language is adopted in the original documents, a cross-reference with English- Chinese version shall be provided.</para>
+            <para>除另有規定外，所有圖說及文件以繁體中文或中文/英文雙語對照書寫編製，若原始文件為其他外國語言(非中文或英文)，必須提供英文/中文對照。</para>
+          </levelledPara>
+          <levelledPara>
+            <title>2.1.2 SI Unit</title>
+            <para>The unit of measurement must be metric or SI system. All pressure unit shall be in Bar.</para>
+            <para>尺寸應用公制或SI單位表示，壓力單位應用Bar表示。</para>
+          </levelledPara>
+          <levelledPara>
+            <title>2.1.3 Format</title>
+            <para>（1） 3D STP (*.stp) or 3DM (*.3dm) graphic files of equipment shall be provided by the maker/supplier forto build up 3D model.</para>
+            <para>廠家/供應商須提供裝備3D (*.stp or *.3dm)格式圖檔。</para>
+            <para>（2） All Drawings / Documents shall be developed in Microsoft Word (*.docx) or Excel (*.xls) or Acrobat ( *.pdf) or AutoCAD (*.dwg) format. All electronic media files shall be editable.</para>
+            <para>所有廠家製作之圖說/文件皆需提供電子檔案，其格式為(*.doc) 或Excel (*.xls)</para>
+            <para>或 Acrobat ( *.pdf) 或AutoCAD (*.dwg)等可編輯之電子檔。</para>
+          </levelledPara>
+          <levelledPara>
+            <title>2.1.4 Drawings / Documents Submitting Schedule</title>
+            <para>The Drawings / Documents submitting schedule are as follows：</para>
+            <para>各藍圖與文件提交時程如下：</para>
+            <para>（1） Drawings or documents for bidding to be submitted with bidding.</para>
+            <para>報價用藍圖與文件需在報價時同時提供。</para>
+            <para>（2） Drawings or documents for approval to be submitted within 14 days after the contract to be effective. 審核用藍圖與文件需在得標簽約後14日內提供。</para>
+            <para>（3） Drawings or documents for working to be submitted within 30 days after approval. 施工用藍圖與文件需於退審圖後30日內提供。</para>
+            <para>（4） Finish plan to be submitted not later than 7 days before shipment.</para>
+            <para>完成用藍圖與文件需在裝備裝運前7日之前提供。</para>
+            <para>（5） See Table (H-3) of Appendix (H) for ILS documents submitting schedule.</para>
+            <para>ILS文件提供期程，詳參閱本採購規範書Appendix (H)之附表(H-3)。</para>
+          </levelledPara>
+          <levelledPara>
+            <title>2.1.5 Specific Drawings / Documents</title>
+            <para>If applicable, the Maker / Supplier shall provide the following documentations：</para>
+            <para>裝備供應商依據下述適用項目，提供下列裝備性能資料:</para>
+            <para>（1） Core winding diagram for Motors of 37.5 KW or above and for Squirrel Cage Motor, and core winding table for others. 37.5KW(含)以上的馬達與鼠籠式馬達須提供繞線圖，其它的馬達須提供繞線表。</para>
+            <para>（2） Power curve for propulsion main engine and ship service generator.</para>
+            <para>推進主機與發電機之馬力曲線圖</para>
+            <para>（3） Performance curve for propulsion propellers.</para>
+            <para>螺槳性能曲線</para>
+            <para>（4） Performance curve for miscellaneous pumps.</para>
+            <para>各類泵性能曲線</para>
+            <para>（5） Shop test report</para>
+            <para>出廠測試報告書</para>
+            <para>（6） Electrical/electronic equipment test standard and procedure</para>
+            <para>電機/電子裝備測試標準與方法</para>
+            <para>（7） Electrical / electronic components layout diagrams, wiring diagram.</para>
+            <para>電子裝備(組件)位置圖、線路圖</para>
+            <para>（8） Illustration and detail procedures of start-up and shut-down, including but not limited to the following: (a) safety precautions, (b) checks prior to start- up, (c) step-by-step start-up procedures, (d) checks during operation, (e) step-by-step shut-down procedures. The procedures shall be developed in Microsoft Word (*.doc) with illustration (*.jpg) and in traditional Chinese.</para>
+            <para>裝備起停步驟(含圖示)包括(a)安全注意事項(b)啟動前檢查事項(c)詳細啟動程序(d)裝備啟動後操作應檢查事項(e)詳細關機程序。本項起停步驟應以中文編製，另行製作提供。</para>
+          </levelledPara>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

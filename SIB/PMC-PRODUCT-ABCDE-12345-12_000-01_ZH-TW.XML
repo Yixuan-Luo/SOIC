@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pm>
+<pm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/pm.xsd">
+  <identAndStatusSection>
+    <pmAddress>
+      <pmIdent>
+        <pmCode modelIdentCode="PRODUCT" pmIssuer="ABCDE" pmNumber="12345" pmVolume="12"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="000" inWork="01"/>
+      </pmIdent>
+      <pmAddressItems>
+        <issueDate year="2025" month="05" day="13"/>
+        <pmTitle/>
+      </pmAddressItems>
+    </pmAddress>
+    <pmStatus>
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="S1000D" systemDiffCode="G" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      
+    </pmStatus>
+  </identAndStatusSection>
+  <content>
+    <pmEntry>
+	  <pmEntryTitle>Front matter</pmEntryTitle>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="PRODUCT" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="001" infoCodeVariant="A" itemLocationCode="A"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>PGG619</techName>
+              <infoName>Title page</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+	</pmEntry>
+	<pmEntry>
+	  <pmEntryTitle>Front matter</pmEntryTitle>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="PRODUCT" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="008" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>PGG619</techName>
+              <infoName>Rf</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+	</pmEntry>
+	
+  </content>
+</pm>

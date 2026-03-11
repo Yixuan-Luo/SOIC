@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="SIBCATALOG" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="002" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2025" month="04" day="23"/>
+        <dmTitle>
+          <techName>艦船裝備系統手冊（SIB）</techName>
+          <infoName>目錄</infoName>
+          
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="02"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      <originator><enterpriseName>海軍造船發展中心</enterpriseName></originator>
+      
+      <applic>
+        <displayText>
+          <simplePara>全部</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <table pgwide="1">
+        <tgroup cols="3">
+          <colspec colname="c1" colwidth="1*"/>
+          <colspec colname="c2" colwidth="3*"/>
+          <colspec colname="c3" colwidth="3*"/>
+          <thead>
+            <row>
+              <entry>
+                <para>章節</para>
+              </entry>
+              <entry>
+                <para>標題</para>
+              </entry>
+              <entry>
+                <para>Data module code</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <para></para>
+              </entry>
+              <entry>
+                <para>目錄</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBCATALOG" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="002" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>第一章</para>
+              </entry>
+              <entry>
+                <para>娛樂系統</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBES" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="003" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>第二章</para>
+              </entry>
+              <entry>
+                <para>警報、安全及警示系統</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBWARN" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="004" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </description>
+  </content>
+</dmodule>

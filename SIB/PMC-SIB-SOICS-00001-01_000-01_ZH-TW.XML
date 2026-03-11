@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pm>
+<pm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/pm.xsd">
+  <identAndStatusSection>
+    <pmAddress>
+      <pmIdent>
+        <pmCode modelIdentCode="SIB" pmIssuer="SOICS" pmNumber="00001" pmVolume="01"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="000" inWork="01"/>
+      </pmIdent>
+      <pmAddressItems>
+        <issueDate year="2025" month="05" day="27"/>
+        <pmTitle/>
+      </pmAddressItems>
+    </pmAddress>
+    <pmStatus>
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      
+    </pmStatus>
+  </identAndStatusSection>
+  <content>
+    <pmEntry>
+	  <pmEntryTitle>Front matter</pmEntryTitle>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBCOVER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="001" infoCodeVariant="A" itemLocationCode="A"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>SIB</techName>
+              <infoName>COVER</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBCATALOG" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="002" infoCodeVariant="A" itemLocationCode="A"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>SIB</techName>
+              <infoName>CATALOG</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBES" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="003" infoCodeVariant="A" itemLocationCode="A"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>SIB</techName>
+              <infoName>ES</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBWARN" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="004" infoCodeVariant="A" itemLocationCode="A"/>
+          </dmRefIdent>
+		  <dmRefAddressItems>
+            <dmTitle>
+              <techName>SIB</techName>
+              <infoName>WARN</infoName>
+            </dmTitle>
+          </dmRefAddressItems>
+        </dmRef>
+	</pmEntry>  
+	</content>
+</pm>
