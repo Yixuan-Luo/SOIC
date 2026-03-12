@@ -1,0 +1,2227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pm [
+<!ENTITY ICN-PGG619-A-00000000-A-NAVY1-00001-A-001-01 SYSTEM "ICN-PGG619-A-00000000-A-NAVY1-00001-A-001-01.PNG">
+<!ENTITY ICN-SIB-A-00000000-A-SIB-00001-A-001-01 SYSTEM "ICN-SIB-A-00000000-A-SIB-00001-A-001-01.PNG">
+<!ENTITY ICN-SIB-A-00000000-A-SIB-00001-A-002-01 SYSTEM "ICN-SIB-A-00000000-A-SIB-00001-A-002-01.PNG">
+<!ENTITY ICN-SIB-A-00000000-A-SIB-00001-A-002-02 SYSTEM "ICN-SIB-A-00000000-A-SIB-00001-A-002-02.PNG">
+]>
+<pm xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/pm.xsd">
+  <identAndStatusSection>
+    <pmAddress>
+      <pmIdent>
+        <pmCode modelIdentCode="SIB" pmIssuer="SOICS" pmNumber="00001" pmVolume="01"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="000" inWork="01"/>
+      </pmIdent>
+      <pmAddressItems>
+        <issueDate year="2025" month="05" day="27"/>
+        <pmTitle/>
+      </pmAddressItems>
+    </pmAddress>
+    <pmStatus>
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+      
+    </pmStatus>
+  </identAndStatusSection>
+  <content>
+    <pmEntry>
+	  <pmEntryTitle>Front matter</pmEntryTitle>
+        <dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/frontmatter.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="SIBCOVER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="001" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2025" month="04" day="15"/>
+        <dmTitle>
+          <techName>艦船裝備系統手冊（SIB）</techName>
+          <infoName>首頁</infoName>          
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="02"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      <originator><enterpriseName>海軍造船發展中心</enterpriseName></originator>  
+      <applic>
+        <displayText>
+          <simplePara>全部</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>            
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <frontMatter>
+      <frontMatterTitlePage>
+		<productIntroName>
+			<name>第四冊/全六冊</name>
+		</productIntroName>
+        <pmTitle>艦船裝備系統手冊（SIB）</pmTitle>
+		<shortPmTitle>第五冊/艦內通訊系統</shortPmTitle>
+        <pmCode modelIdentCode="PRODUCT" pmIssuer="SIB06" pmNumber="00000" pmVolume="04"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+        <issueDate year="2025" month="04" day="15"/>
+		<productAndModel>
+			<productName>
+				<name>塔江軍艦（PGG-619）</name>
+			</productName>
+		</productAndModel>
+
+        <security securityClassification="02"/>
+        <productIllustration>
+          <graphic infoEntityIdent="ICN-PGG619-A-00000000-A-NAVY1-00001-A-001-01" reproductionWidth="100mm"/>
+        </productIllustration>
+        <responsiblePartnerCompany>
+          <enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+        </responsiblePartnerCompany>
+	   <!-- <enterpriseSpec>
+		  <enterpriseIdent manufacturerCodeValue="XXXXX"/>
+		  <enterpriseName>海軍造船發展中心</enterpriseName>
+		  <businessUnit>
+		    <businessUnitName></businessUnitName>
+			<businessUnitAddress>
+			  <street></street>
+			  <postalZipCode></postalZipCode>
+			  <city></city>
+			  <country></country>
+			</businessUnitAddress>
+		  </businessUnit>
+		</enterpriseSpec>-->
+
+      </frontMatterTitlePage>
+
+    </frontMatter>	
+  </content>
+</dmodule>
+        <dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="SIBCATALOG" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="002" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2025" month="04" day="23"/>
+        <dmTitle>
+          <techName>艦船裝備系統手冊（SIB）</techName>
+          <infoName>目錄</infoName>
+          
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="02"/>
+      <responsiblePartnerCompany><enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName></responsiblePartnerCompany>
+      <originator><enterpriseName>海軍造船發展中心</enterpriseName></originator>
+      
+      <applic>
+        <displayText>
+          <simplePara>全部</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <table pgwide="1">
+        <tgroup cols="3">
+          <colspec colname="c1" colwidth="1*"/>
+          <colspec colname="c2" colwidth="3*"/>
+          <colspec colname="c3" colwidth="3*"/>
+          <thead>
+            <row>
+              <entry>
+                <para>章節</para>
+              </entry>
+              <entry>
+                <para>標題</para>
+              </entry>
+              <entry>
+                <para>Data module code</para>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <para/>
+              </entry>
+              <entry>
+                <para>目錄</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBCATALOG" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="002" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>第一章</para>
+              </entry>
+              <entry>
+                <para>娛樂系統</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBES" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="003" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>第二章</para>
+              </entry>
+              <entry>
+                <para>警報、安全及警示系統</para>
+              </entry>
+              <entry>
+                <para>
+                  <dmRef>
+                    <dmRefIdent>
+                      <dmCode modelIdentCode="SIBWARN" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="004" infoCodeVariant="A" itemLocationCode="A"/>
+                    </dmRefIdent>
+                  </dmRef>
+                </para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </description>
+  </content>
+</dmodule>
+        <dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="SIBES" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="003" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="zh" countryIsoCode="TW"/>
+				<issueInfo issueNumber="001" inWork="00"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2025" month="05" day="27"/>
+				<dmTitle>
+					<techName>第一章</techName>
+					<infoName>娛樂系統</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus issueType="new">
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>All</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<description>
+			<levelledPara>
+				<title>娛樂系統</title>
+				<levelledPara>
+					<title>娛樂系統</title>
+					<levelledPara>
+						<title>功能</title>
+						<para>
+							<randomList>
+								<listItem>
+									<para>1.娛樂系統可供艦上官兵收看或收聽影音節目。</para>
+								</listItem>
+								<listItem>
+									<para>2.系統識別區分重要性:非重要系統(NV)。</para>
+								</listItem>
+								<listItem>
+									<para>3.備便狀態:第四級系統。</para>
+								</listItem>
+							</randomList>
+						</para>
+					</levelledPara>
+					<levelledPara>
+						<title>概述</title>
+						<para>娛樂系統包含電視機、影碟機、伴唱系統、立體音響組合及共同天線系統。娛樂系統組成架構如圖。</para>
+						<figureAlts>
+							<figure>
+								<title>娛樂系統組成架構圖</title>
+								<graphic infoEntityIdent="ICN-SIB-A-00000000-A-SIB-00001-A-001-01" reproductionWidth="150mm"/>
+							</figure>
+						</figureAlts>
+					</levelledPara>
+					<levelledPara>
+						<title>系統及設備特性</title>
+						<para>(一)娛樂系統設備安裝位置如表</para>
+						<table id="SIB_1-1">
+							<!--表格元素，使用屬性id可對此表格編號-->
+							<title>娛樂系統設備安裝位置</title>
+							<tgroup cols="4">
+								<!--表格行數-->
+								<colspec colname="col1" colwidth="13mm"/>
+								<colspec colname="col2" colwidth="52.5mm"/>
+								<colspec colname="col3" colwidth="40mm"/>
+								<colspec colname="col4" colwidth="40mm"/>
+								<thead>
+									<!--表格標題列-->
+									<row>
+										<entry valign="middle" morerows="1">
+											<para>項次</para>
+										</entry>
+										<entry valign="middle" morerows="1">
+											<para>設備名稱</para>
+										</entry>
+										<entry align="center" namest="col3" nameend="col4">
+											<para>安裝位置</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center">
+											<para>艙間名稱</para>
+										</entry>
+										<entry align="center">
+											<para>艙間編號</para>
+										</entry>
+									</row>
+								</thead>
+								<tbody>
+									<!--表格內容-->
+									<row>
+										<!--每列元素-->
+										<entry align="center" valign="middle">
+											<para>1</para>
+										</entry>
+										<entry valign="middle">
+											<para>影碟機</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>2</para>
+										</entry>
+										<entry valign="middle">
+											<para>伴唱系統(包含麥克風有線無線各兩支)</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>3</para>
+										</entry>
+										<entry valign="middle">
+											<para>立體音響組合</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>4</para>
+										</entry>
+										<entry valign="middle">
+											<para>60吋彩色液晶電視機</para>
+										</entry>
+										<entry>
+											<para>官員餐廳</para>
+											<para>士官兵餐廳</para>
+										</entry>
+										<entry align="center">
+											<para>1-72-0</para>
+											<para>1-60-2</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>5</para>
+										</entry>
+										<entry valign="middle">
+											<para>43吋彩色液晶電視機</para>
+										</entry>
+										<entry>
+											<para>艦長室</para>
+											<para>副長室</para>
+										</entry>
+										<entry align="center">
+											<para>1-78-3</para>
+											<para>1-78-4</para>
+										</entry>
+									</row>
+									<row>
+										<entry align="center" valign="middle">
+											<para>6</para>
+										</entry>
+										<entry valign="middle">
+											<para>桌上型音響</para>
+										</entry>
+										<entry>
+											<para>艦長室</para>
+											<para>副長室</para>
+										</entry>
+										<entry align="center">
+											<para>1-78-3</para>
+											<para>1-78-4</para>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+						<para>(二)影碟機
+						<randomList>
+								<listItem>
+									<para>1.影碟機為2聲道藍光播放機。</para>
+								</listItem>
+								<listItem>
+									<para>2.廠牌：SONY索尼，型號BDP-S1500。</para>
+								</listItem>
+								<listItem>
+									<para>3.影碟機可支援播放藍光DVD、CD、VCD和MP3格式，具USD及HDMI 輸出。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(三)伴唱系統
+						<randomList>
+								<listItem>
+									<para>1.伴唱機為金嗓科技Gloden Voice，型號CPX-900R2，具混音器及升降音階功能。</para>
+								</listItem>
+								<listItem>
+									<para>2.每機包含麥克風，有線、無線各兩支。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(四)立體音響組合
+						<randomList>
+								<listItem>
+									<para>1.伴唱系統擴大機</para>
+									<para>廠牌：KTF，型號RA-7。</para>
+									<para>支援USD、SD卡數位音樂輸入，藍芽3.0EDR及NFC自動感應近場無線傳輸。</para>
+								</listItem>
+								<listItem>
+									<para>2.杜比邏輯環繞聲效擴大機</para>
+									<para>廠牌：DENON，型號AVR-X2700H。</para>
+								</listItem>
+								<listItem>
+									<para>3.前置聲道喇叭</para>
+									<para>廠牌：金大發音響KTF，型號DM-827。</para>
+								</listItem>
+								<listItem>
+									<para>4.戶外防水喇叭</para>
+									<para>廠牌：Ryan，型號PK503。</para>
+								</listItem>
+								<listItem>
+									<para>5.收音機+CD音響</para>
+									<para>廠牌:愷陞King Stage，型號CDJ-140。</para>
+									<para>具CD3、USB插槽，收音機具AM/FM頻段收聽功能。</para>
+								</listItem>
+							</randomList>
+						</para>
+						<para>(五)60吋彩色液晶電視機</para>
+						<para>廠牌：SHARP夏普，型號4T-C60CK1X。</para>
+						<para>(六)43吋彩色液晶電視機</para>
+						<para>廠牌： PANASONIC國際牌，型號TH-43JX650W。</para>
+						<para>(七)桌上型音響</para>
+						<para>廠牌：Panasonic國際牌，型號SC-UA3。</para>
+						<para>具收音機接收，CD撥放功能。</para>
+						<para>(八)電源:娛樂系統設備電源均為AC115V，由裝設艙間內照明系統鄰近插座提供電源。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>關聯系統</title>
+						<para>(一)共同天線系統:電視機、伴唱系統及立體音響內電視訊號、AM/FM收音機訊號，均需接自共同天線系統之接線盒。</para>
+						<para>(二)視訊顯控系統:開放視訊顯控系統之戰情相關資訊可透過轉換開關及電腦，在官員餐廳、艦長室及副長室之電視機上顯示。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>參考文件</title>
+						<para>(一)N03542434B34A3-娛樂設施系統線路圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43400-E-2350-K3II145O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(二)N03542434B54A3-娛樂設施系統裝備佈置圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43400-E-2X24-K3II188A-0</para>
+								</listItem>
+							</randomList></para>
+						<para>(三)N03542434B53A4_R1-娛樂設施系統廠家圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：043400-E-2X31-D3II211C-06</para>
+								</listItem>
+							</randomList></para>
+					</levelledPara>
+				</levelledPara>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>
+        <dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_5-0/xml_schema_flat/descript.xsd">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="SIBWARN" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="004" infoCodeVariant="A" itemLocationCode="A"/>
+				<language languageIsoCode="zh" countryIsoCode="TW"/>
+				<issueInfo issueNumber="001" inWork="00"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2025" month="05" day="27"/>
+				<dmTitle>
+					<techName>第二章</techName>
+					<infoName>警報、安全及警示系統</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus issueType="new">
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator>
+				<enterpriseName>財團法人船舶暨海洋產業研發中心</enterpriseName>
+			</originator>
+			<applic>
+				<displayText>
+					<simplePara>All</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<description>
+			<levelledPara>
+				<title>警報、安全及警示系統</title>
+				<levelledPara>
+					<title>一般與火警警報系統</title>
+					<levelledPara>
+						<title>功能</title>
+						<para>(一)一般與火警警報系統由火災偵測系統和警報系統兩部分組合而成。</para>
+						<para>(二)火災偵測系統經由佈設於全艦的火警偵測感應器及手動火警按鈕，將火警信號傳送到”火警警報系統主控盤”。主控盤將此火警信號傳送至”一般與火警警報系統繼電器盤”對全艦發佈火警警報。</para>
+						<para>(三)系統識別區分:</para>
+						<para>重要性:次要系統(SV)，備便狀態:第1級系統(1)。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>概述</title>
+						<para>(一)主控盤位於駕駛室，可指示發生火警艙間或區域，同時火警警報系統指示盤(位於中央控制室)亦可指示發生火警艙間或區域。</para>
+						<para>(二)火警偵測感應器種類有探煙式、探煙式防爆型、高溫型及火焰型四種。</para>
+						<para>(三)火警警報是透過繼電器盤直接發佈出去，繼電器盤亦可藉由”警報釋放開關”，以手動方式發佈全艦警報。繼電器盤可將警報信號傳送到1MC廣播系統發佈警報，一般與火警警報系統架構如圖</para>
+						<figureAlts>
+							<figure>
+								<title>一般與火警警報系統架構圖</title>
+								<graphic infoEntityIdent="ICN-SIB-A-00000000-A-SIB-00001-A-002-01" reproductionWidth="150mm"/>
+							</figure>
+						</figureAlts>
+					</levelledPara>
+					<levelledPara>
+						<title>系統及設備特性</title>
+						<para>一般與火警警報系統安裝位置如表2-1，系統設備說明如下:</para>
+						<para>(一)火警警報系統主控盤T2000
+					<randomList>
+								<listItem>
+									<para>1.廠牌: Minerva MX Marin，型號: 557.200.610。</para>
+								</listItem>
+								<listItem>
+									<para>2.控制器共有8個控制迴路，最多可支援到1000個可定址的設備，並能聯成網路。</para>
+								</listItem>
+								<listItem>
+									<para>3.主要特點如下:標準模組化，2個無電源輸出(火警警報與故障警報)。</para>
+								</listItem>
+								<listItem>
+									<para>4.發生火災，偵測感應器作動後，主控盤上可顯示發生火警艙間區域。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(二)火警警報系統指示盤附蜂鳴器
+						<randomList>
+								<listItem>
+									<para>1.型號: 557.200.621。</para>
+								</listItem>
+								<listItem>
+									<para>2.裝設於中央控制室。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(三)火警偵測感應器(探煙式、防爆型)
+						<randomList>
+								<listItem>
+									<para>1.型號: 516.054.011.Y，MR601TEX。</para>
+								</listItem>
+								<listItem>
+									<para>2.防爆型感應器，裝設於電瓶間、76砲揚彈間及油漆庫房，工作溫度-20∘C~+70∘C，相對溼度95%(無凝結時)。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(四)火警偵測感應器(探煙式)
+						<randomList>
+								<listItem>
+									<para>1.廠牌: Minerva MX Marin，型號516.850.055。</para>
+								</listItem>
+								<listItem>
+									<para>2.主要用於住艙房間，公共區域、梯道、走廊、機艙等區域。內置短路隔離裝置，所有的探頭均有獨立的探頭火警和故障指示燈，運轉溫度-25∘C~+70∘C，相對溼度95%(無凝結時)。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(五)火警偵測感應器(火焰型)(811F MX Flame detector) 
+						<randomList>
+								<listItem>
+									<para>1.型號: 516.800.007。</para>
+								</listItem>
+								<listItem>
+									<para>2.裝設區域:前機艙、後機艙、發電機艙、輔機艙，在20m距離內，可偵測到0.1m2的火焰，為本質安全型。運轉溫度-20∘C~+70∘C，相對溼度90%。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(六)火警偵測感應器(高溫型)
+						<randomList>
+								<listItem>
+									<para>1.型號: 516.850.053。</para>
+								</listItem>
+								<listItem>
+									<para>2.裝設於廚房、官員餐廳、士官兵餐廳，具低熱量熱敏感測器，用於溫度探測和熱探測。內置短路隔離器，探頭均有獨立的探頭火警和故障指示燈。運轉溫度-25∘C~+70∘C，相對溼度95%(無凝結時)</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(七)火警偵測隔離柵安裝盒
+						<randomList>
+								<listItem>
+									<para>1.型號: 517.001.248。</para>
+								</listItem>
+								<listItem>
+									<para>2.裝設於電瓶間、76砲揚彈間#1及油漆庫外之防爆感煙探測器迴路上，作為其與外部系統之迴路隔離用。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(八)手動火警按鈕
+						<randomList>
+								<listItem>
+									<para>1.型號:514.800.609。</para>
+								</listItem>
+								<listItem>
+									<para>2.裝設於各門的出口處，發現火警時，即可手動按下按鈕，做動火警警報系統。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(九)火警電動警報器(含旋轉紅燈AC 115V)
+						<randomList>
+								<listItem>
+									<para>1.廠家 SHENGAN MARINE，型號539-4732-RR-001。</para>
+								</listItem>
+								<listItem>
+									<para>2.工作溫度-25∘C~+55∘C，距離1m聲響110dB，防護等級IP66。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(十)電動蜂鳴警報器(附指示燈AC 115V)
+						<randomList>
+								<listItem>
+									<para>1.廠家SHENGAN MARINE，型號SGE-BZ-165N。</para>
+								</listItem>
+								<listItem>
+									<para>2.距離1m聲響80dB，防護等級IP22。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(十一)警鈴(12cm附指示燈AC 115V)
+						<randomList>
+								<listItem>
+									<para>1.廠家SHENGAN MARINE，型號SGE-WBL-120。</para>
+								</listItem>
+								<listItem>
+									<para>2.距離1m聲響85dB，防護等級IP56。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(十二)警鈴(20cm附指示燈AC 115V)
+						<randomList>
+								<listItem>
+									<para>1.廠家SHENGAN MARINE，型號SGE-WBL-200。</para>
+								</listItem>
+								<listItem>
+									<para>2.距離1m聲響95dB，防護等級IP56。</para>
+								</listItem>
+							</randomList>
+					</para>
+						<para>(十三)電源</para>
+						<para>火警警報系統主控盤及火警警報指示盤均由C-2D AC115V分電箱(02-75-4)-1P-FA迴路，及B-2D DC 24V 分電箱(02-75-1)-C-FA迴路提供。</para>
+						<table id="SIB_2-1">
+							<title>表2-1 一般與火警警報系統安裝位置</title>
+							<tgroup cols="5">
+								<colspec colname="col1" colwidth="13mm"/>
+								<colspec colname="col2" colwidth="52.5mm"/>
+								<colspec colname="col3" colwidth="35mm"/>
+								<colspec colname="col4" colwidth="25mm"/>
+								<colspec colname="col5" colwidth="22.5mm"/>
+								<thead>
+									<row>
+										<entry morerows="1">
+											<para>項次</para>
+										</entry>
+										<entry morerows="1">
+											<para>設備名稱</para>
+										</entry>
+										<entry valign="middle" align="center" namest="col3" nameend="col5">
+											<para>安裝位置</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>艙間名稱</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>艙間編號</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>肋骨Fr.</para>
+										</entry>
+									</row>
+								</thead>
+								<tbody>
+									<row>
+										<entry valign="middle" align="center">
+											<para>1</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-火警警報系統主控盤</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-駕駛室</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.71(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>2</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-火警警報系統指示盤加蜂鳴器</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-中央控制室</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-48-2-C</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.51(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>3</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>7-火警偵測感應器(火焰型)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-前機艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-發電機艙</para>
+											<para>1-後機艙(P)</para>
+											<para>1-前機艙(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-後機艙(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-30-2-E</para>
+											<para>2-10-2-E</para>
+											<para>2--4-2-E</para>
+											<para>3-10-2-E</para>
+											<para>2-30-1-E</para>
+											<para>2-10-1-E</para>
+											<para>3-10-1-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.40(P)</para>
+											<para>Fr.34(P)</para>
+											<para>Fr.0(P)</para>
+											<para>Fr.28(P)</para>
+											<para>Fr.40(S)</para>
+											<para>Fr.34(S)</para>
+											<para>Fr.28(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>4</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-火警偵測感應器(高溫型)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-官員餐廳</para>
+											<para>1-廚房</para>
+											<para>2-士官兵餐廳</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-72-0-L</para>
+											<para>1-62-1-Q</para>
+											<para>1-60-2-L</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.75(S)</para>
+											<para>Fr.67(S)</para>
+											<para>Fr.68(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>5</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-火警偵測感應器(探煙式、防爆型)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-電瓶間</para>
+											<para>2-76砲揚彈間</para>
+											<para>-</para>
+											<para>1-油漆庫</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-4-Q</para>
+											<para>1-88-0-M</para>
+											<para>-</para>
+											<para>2-96-1-K</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.66(P)</para>
+											<para>Fr.96(P)</para>
+											<para>Fr.91(S)</para>
+											<para>Fr.100(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>6</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-火警偵測防爆隔離器組</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-駕駛室</para>
+											<para>2-前繫泊區域</para>
+											<para>1-女士官兵衛浴間</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+											<para>1-88-0-X</para>
+											<para>2-86-1-L</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.71(P)</para>
+											<para>Fr.96(P)</para>
+											<para>Fr.95(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>7</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>73-火警偵測感應器(探煙式)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-駕駛室</para>
+											<para>-</para>
+											<para>1-中央走道</para>
+											<para>1-戰系裝備間(4)</para>
+											<para>1-電信室</para>
+											<para>2-戰情室</para>
+											<para>-</para>
+											<para>1-戰系裝備間(2)</para>
+											<para>1-戰系裝備間(3)</para>
+											<para>1-左舷走道</para>
+											<para>6-前繫泊區域</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>1-走道</para>
+											<para>1-艦長室</para>
+											<para>1-右舷走道</para>
+											<para>1-第二修理班</para>
+											<para>1-圖書庫</para>
+											<para>2-中央走道(1)</para>
+											<para>-</para>
+											<para>1-中央控制室</para>
+											<para>1-辦公室</para>
+											<para>1-副長室</para>
+											<para>1-滅火氣瓶間</para>
+											<para>1-軍士官衛浴間</para>
+											<para>1-軍官住艙(2)</para>
+											<para>1-軍官住艙(1)</para>
+											<para>1-士官兵住艙(4)</para>
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-士官兵住艙(2)</para>
+											<para>1-士官長住艙</para>
+											<para>1-被服庫房</para>
+											<para>2-前機艙(P)</para>
+											<para>-</para>
+											<para>3-後機艙(P)</para>
+											<para>-</para>
+											<para>-</para>
+											<para>1-發電機艙</para>
+											<para>1-噴水器艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-輔機艙(P)#2</para>
+											<para>1-女士官兵衛浴間</para>
+											<para>1-女軍士官住艙</para>
+											<para>1-女軍士官衛浴間</para>
+											<para>1-士官兵住艙(3)</para>
+											<para>1-士官兵衛浴間(1)</para>
+											<para>1-士官兵住艙(1)</para>
+											<para>1-女士官兵住艙</para>
+											<para>1-乾糧庫</para>
+											<para>2-前機艙(S)</para>
+											<para>-</para>
+											<para>3-後機艙(S)</para>
+											<para>-</para>
+											<para>-</para>
+											<para>1-小艇艙#2</para>
+											<para>1-噴水器艙(S)</para>
+											<para>1-後機艙</para>
+											<para>1-輔機艙(S)</para>
+											<para>2-中央走道(3)</para>
+											<para>-</para>
+											<para>1-第三修理班</para>
+											<para>1-戰系裝備間(1)</para>
+											<para>1-中央走道(2)</para>
+											<para>1-廢物處理間(1)</para>
+											<para>1-廢物處理間(2)</para>
+											<para>1-滑油儲藏庫</para>
+											<para>1-方陣控制間</para>
+											<para>1-後帆纜庫房</para>
+											<para>1-雷達設備間</para>
+											<para>1-前帆纜庫房</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+											<para>-</para>
+											<para>01-60-0-L</para>
+											<para>01-60-1-Q</para>
+											<para>01-65-1-C</para>
+											<para>01-72-0-C</para>
+											<para>-</para>
+											<para>01-67-2-Q</para>
+											<para>01-60-2-Q</para>
+											<para>1-72-4-L</para>
+											<para>1-88-0-X</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>-</para>
+											<para>1-84-0-L</para>
+											<para>1-78-3-L</para>
+											<para>1-72-1-L</para>
+											<para>1-54-3-A</para>
+											<para>1-54-1-Q</para>
+											<para>1-44-0-L</para>
+											<para>-</para>
+											<para>1-48-2-C</para>
+											<para>1-72-2-Q</para>
+											<para>1-78-4-L</para>
+											<para>2-96-2-K</para>
+											<para>2-86-2-L</para>
+											<para>2-72-4-L</para>
+											<para>2-72-2-L</para>
+											<para>2-58-2-L</para>
+											<para>2-44-2-L</para>
+											<para>3-58-2-L</para>
+											<para>3-72-2-L</para>
+											<para>3-86-2-A</para>
+											<para>2-30-2-E</para>
+											<para>-</para>
+											<para>2-30-2-E</para>
+											<para>-</para>
+											<para>-</para>
+											<para>2--4-2-E</para>
+											<para>3-0-2-E</para>
+											<para>3-10-2-E</para>
+											<para>3-44-2-E</para>
+											<para>2-86-1L</para>
+											<para>2-72-3-L</para>
+											<para>2-72-1-L</para>
+											<para>2-58-1-L</para>
+											<para>2-44-1-L</para>
+											<para>3-58-1-L</para>
+											<para>3-72-1-L</para>
+											<para>3-86-1-A</para>
+											<para>2-30-1-E</para>
+											<para>-</para>
+											<para>2-10-1-E</para>
+											<para>-</para>
+											<para>-</para>
+											<para>2--4-1-Q</para>
+											<para>3-0-1-E</para>
+											<para>3-10-1-E</para>
+											<para>3-44-1-E</para>
+											<para>1-18-0-L</para>
+											<para>-</para>
+											<para>1-36-4-A</para>
+											<para>01-30-2-Q</para>
+											<para>1-32-0-L</para>
+											<para>1-36-1-A</para>
+											<para>1-30-1-A</para>
+											<para>1-26-1-A</para>
+											<para>1-24-2-C</para>
+											<para>1-26-2-L</para>
+											<para>02-30-0-Q</para>
+											<para>2-110-0-A</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.72(S)</para>
+											<para>Fr.74(P)</para>
+											<para>Fr.62(C)</para>
+											<para>Fr.63(S)</para>
+											<para>Fr.67(S)</para>
+											<para>Fr.76(P)</para>
+											<para>Fr.76(S)</para>
+											<para>Fr.70(P)</para>
+											<para>Fr.63(P)</para>
+											<para>Fr.80(P)</para>
+											<para>Fr.95(P)</para>
+											<para>Fr.109(P)</para>
+											<para>Fr.117(P)</para>
+											<para>Fr.109(P)</para>
+											<para>Fr.109(P)</para>
+											<para>Fr.99(S)</para>
+											<para>Fr.87(C)</para>
+											<para>Fr.82(S)</para>
+											<para>Fr.80(S)</para>
+											<para>Fr.56(S)</para>
+											<para>Fr.56(S)</para>
+											<para>Fr.54(C)</para>
+											<para>Fr.62(S)</para>
+											<para>Fr.39(P)</para>
+											<para>Fr.74(P)</para>
+											<para>Fr.82(P)</para>
+											<para>Fr.101(P)</para>
+											<para>Fr.90(P)</para>
+											<para>Fr.77(P)</para>
+											<para>Fr.75(P)</para>
+											<para>Fr.66(P)</para>
+											<para>Fr.50(P)</para>
+											<para>Fr.66(P)</para>
+											<para>Fr.77(P)</para>
+											<para>Fr.91(P)</para>
+											<para>Fr.40(P)</para>
+											<para>Fr.33(P)</para>
+											<para>Fr.27(P)</para>
+											<para>Fr.23(P)</para>
+											<para>Fr.14(P)</para>
+											<para>Fr.0(P)</para>
+											<para>Fr.6(P)</para>
+											<para>Fr.28(P)</para>
+											<para>Fr.51(P)</para>
+											<para>Fr.90(S)</para>
+											<para>Fr.79(S)</para>
+											<para>Fr.75(S)</para>
+											<para>Fr.66(S)</para>
+											<para>Fr.50(S)</para>
+											<para>Fr.65(S)</para>
+											<para>Fr.78(S)</para>
+											<para>Fr.90(S)</para>
+											<para>Fr.41(S)</para>
+											<para>Fr.33(S)</para>
+											<para>Fr.26(S)</para>
+											<para>Fr.23(S)</para>
+											<para>Fr.13(S)</para>
+											<para>Fr.3(S)</para>
+											<para>Fr.6(S)</para>
+											<para>Fr.28(S)</para>
+											<para>Fr.51(S)</para>
+											<para>Fr.24(C)</para>
+											<para>Fr.33(P)</para>
+											<para>Fr.39(P)</para>
+											<para>Fr.34(P)</para>
+											<para>Fr.37(C)</para>
+											<para>Fr.38(S)</para>
+											<para>Fr.33(S)</para>
+											<para>Fr.27(S)</para>
+											<para>Fr.25(P)</para>
+											<para>Fr.28(P)</para>
+											<para>Fr.33(C)</para>
+											<para>Fr.117(C)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>8</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>33-手動火警按鈕</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-駕駛室</para>
+											<para>-</para>
+											<para>1-中央走道</para>
+											<para>1-前主甲板區</para>
+											<para>1-走道</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(S)</para>
+											<para>2-中央走道(1)</para>
+											<para>-</para>
+											<para>1-樓梯間(S)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(S)</para>
+											<para>1-樓梯間(S)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-發電機艙</para>
+											<para>1-後機艙(P)</para>
+											<para>1-前機艙(P)</para>
+											<para>1-輔機艙(P)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-小艇艙</para>
+											<para>1-後機艙(S)</para>
+											<para>1-前機艙(S)</para>
+											<para>1-輔機艙(S)</para>
+											<para>1-中央走道</para>
+											<para>1-戰系裝備間(1)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(P)</para>
+											<para>1-樓梯間(S)</para>
+											<para>1-樓梯間(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+											<para>-</para>
+											<para>01-60-0-L</para>
+											<para>1-88-0-X</para>
+											<para>1-84-0-L</para>
+											<para>1-84-2-T</para>
+											<para>1-84-1-T</para>
+											<para>1-44-0-L</para>
+											<para>-</para>
+											<para>1-58-2-T</para>
+											<para>1-58-1-T</para>
+											<para>2-84-2-T</para>
+											<para>2-58-2-T</para>
+											<para>2-58-1-T</para>
+											<para>2-84-1-T</para>
+											<para>2-10-2-E</para>
+											<para>2--4-2-E</para>
+											<para>3-10-2-E</para>
+											<para>3-30-2-E</para>
+											<para>3-44-2-E</para>
+											<para>1-44-2-T</para>
+											<para>1-44-1-T</para>
+											<para>2-10-1-T</para>
+											<para>2--4-1-Q</para>
+											<para>3-10-1-E</para>
+											<para>3-30-1-E</para>
+											<para>3-44-1-E</para>
+											<para>1-18-0-L</para>
+											<para>01-30-2-Q</para>
+											<para>3-58-2-T</para>
+											<para>3-84-2-T</para>
+											<para>3-58-1-T</para>
+											<para>3-84-2-T</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.72(S)</para>
+											<para>Fr.73(P)</para>
+											<para>Fr.63(C)</para>
+											<para>Fr.103(C)</para>
+											<para>Fr.87(C)</para>
+											<para>Fr.85(P)</para>
+											<para>Fr.85(S)</para>
+											<para>Fr.63(C)</para>
+											<para>Fr.62(S)</para>
+											<para>Fr.58(S)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.86(P)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.58(S)</para>
+											<para>Fr.84(S)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.10(P)</para>
+											<para>Fr.17(P)</para>
+											<para>Fr.35(P)</para>
+											<para>Fr.44(P)</para>
+											<para>Fr.44(P)</para>
+											<para>Fr.44(S)</para>
+											<para>Fr.30(S)</para>
+											<para>Fr.10(S)</para>
+											<para>Fr.17(S)</para>
+											<para>Fr.35(S)</para>
+											<para>Fr.44(S)</para>
+											<para>Fr.31(C)</para>
+											<para>Fr.30(C)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.86(P)</para>
+											<para>Fr.58(S)</para>
+											<para>Fr.84(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>9</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-一般與火警警報系統繼電器盤</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-駕駛室</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.73(C)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>10</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-警報釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-駕駛室</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.71(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>11</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>14-火警電動警報器(含旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-前主甲板區</para>
+											<para>1-前機艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-發電機艙</para>
+											<para>1-噴水器艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-前機艙(P)</para>
+											<para>1-輔機艙(P)</para>
+											<para>1-前機艙(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-噴水器艙(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-前機艙(S)</para>
+											<para>1-輔機艙(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-88-0-X</para>
+											<para>2-30-2-E</para>
+											<para>2-10-2-E</para>
+											<para>2--4-2-E</para>
+											<para>3-0-2-E</para>
+											<para>3-10-2-E</para>
+											<para>3-30-2-E</para>
+											<para>3-44-2-E</para>
+											<para>2-30-1-E</para>
+											<para>2-10-1-E</para>
+											<para>3-0-1-E</para>
+											<para>3-10-1-E</para>
+											<para>3-30-1-E</para>
+											<para>3-44-1-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.98(C)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.10(P)</para>
+											<para>Fr.10(P)</para>
+											<para>Fr.11(P)</para>
+											<para>Fr.31(P)</para>
+											<para>Fr.49(P)</para>
+											<para>Fr.30(S)</para>
+											<para>Fr.30(S)</para>
+											<para>Fr.10(S)</para>
+											<para>Fr.24(S)</para>
+											<para>Fr.34(S)</para>
+											<para>Fr.50(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>12</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>14-電動蜂鳴警報器</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-電信室</para>
+											<para>1-辦公室</para>
+											<para>1-副長室</para>
+											<para>1-艦長室</para>
+											<para>1-方陣控制間</para>
+											<para>1-軍官住艙(1)</para>
+											<para>1-軍官住艙(2)</para>
+											<para>1-士官兵住艙(2)</para>
+											<para>1-士官長住艙</para>
+											<para>1-士官兵住艙(4)</para>
+											<para>1-女軍士官住艙</para>
+											<para>1-士官兵住艙(1)</para>
+											<para>1-士官兵住艙(3)</para>
+											<para>1-女士官兵住艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>01-65-1-C</para>
+											<para>1-72-2-Q</para>
+											<para>1-78-4-L</para>
+											<para>1-78-3-L</para>
+											<para>1-24-2-C</para>
+											<para>2-72-2-L</para>
+											<para>2-72-4-L</para>
+											<para>3-58-2-L</para>
+											<para>3-72-2-L</para>
+											<para>2-58-2-L</para>
+											<para>2-73-2-L</para>
+											<para>3-58-1-L</para>
+											<para>2-58-1-L</para>
+											<para>3-72-1-L</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.70(S)</para>
+											<para>Fr.74(P)</para>
+											<para>Fr.78(P)</para>
+											<para>Fr.81(S)</para>
+											<para>Fr.27(P)</para>
+											<para>Fr.82(P)</para>
+											<para>Fr.80(P)</para>
+											<para>Fr.60(P)</para>
+											<para>Fr.73(P)</para>
+											<para>Fr.60(P)</para>
+											<para>Fr.83(S)</para>
+											<para>Fr.60(S)</para>
+											<para>Fr.60(S)</para>
+											<para>Fr.73(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>13</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>33-警鈴(12cm)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-駕駛室</para>
+											<para>1-雷達設備間</para>
+											<para>1-露天區01甲板</para>
+											<para>1-戰情室</para>
+											<para>1-戰系裝備間(2)</para>
+											<para>1-戰系裝備間(3)</para>
+											<para>1-戰系裝備間(4)</para>
+											<para>1-中央走道</para>
+											<para>1-方陣間</para>
+											<para>1-走道</para>
+											<para>1-士官兵餐廳</para>
+											<para>1-中央控制室</para>
+											<para>2-中央走道(1)</para>
+											<para>-</para>
+											<para>1-圖書庫</para>
+											<para>1-第二修理班</para>
+											<para>1-廚房</para>
+											<para>1-官員餐廳</para>
+											<para>1-走道</para>
+											<para>1-前帆覽庫</para>
+											<para>1-第三修理班</para>
+											<para>1-戰系裝備間(1)</para>
+											<para>1-滑油儲藏庫</para>
+											<para>1-中央走道(3)</para>
+											<para>1-軍士官衛浴間</para>
+											<para>1-軍官住艙外走道</para>
+											<para>1-樓梯間</para>
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-小艇艙</para>
+											<para>1-女士官兵衛浴間</para>
+											<para>1-樓梯間</para>
+											<para>1-士官兵住艙外走道</para>
+											<para>1-士官兵衛浴間(1)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-65-0-C</para>
+											<para>02-30-0-Q</para>
+											<para>01-86-0-X</para>
+											<para>01-72-0-C</para>
+											<para>01-67-2-Q</para>
+											<para>01-60-2-Q</para>
+											<para>01-60-1-Q</para>
+											<para>01-60-0-L</para>
+											<para>01-19-0-X</para>
+											<para>1-72-2-L</para>
+											<para>1-60-2-L</para>
+											<para>1-48-2-C</para>
+											<para>1-44-0-L</para>
+											<para>-</para>
+											<para>1-54-1-Q</para>
+											<para>1-54-3-A</para>
+											<para>1-62-1-Q</para>
+											<para>1-72-0-L</para>
+											<para>1-72-1-L</para>
+											<para>2-110-0-A</para>
+											<para>1-36-4-A</para>
+											<para>01-30-2-Q</para>
+											<para>1-26-1-A</para>
+											<para>1-18-0-L</para>
+											<para>2-86-2-L</para>
+											<para>2-84-2-L</para>
+											<para>2-58-2-T</para>
+											<para>2-44-2-L</para>
+											<para>2--4-1-Q</para>
+											<para>2-86-1-L</para>
+											<para>2-84-1-T</para>
+											<para>2-58-1-T</para>
+											<para>2-44-1-T</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.70(P)</para>
+											<para>Fr.33(C)</para>
+											<para>Fr.82(S)</para>
+											<para>Fr.72(P)</para>
+											<para>Fr.70(P)</para>
+											<para>Fr.61(P)</para>
+											<para>Fr.61(S)</para>
+											<para>Fr.61(S)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.85(P)</para>
+											<para>Fr.60(P)</para>
+											<para>Fr.50(C)</para>
+											<para>Fr.50(C)</para>
+											<para>Fr.63(S)</para>
+											<para>Fr.56(S)</para>
+											<para>Fr.60(S)</para>
+											<para>Fr.67(S)</para>
+											<para>Fr.72(S)</para>
+											<para>Fr.85(S)</para>
+											<para>Fr.111(C)</para>
+											<para>Fr.36(P)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.25(S)</para>
+											<para>Fr.27(P)</para>
+											<para>Fr.86(P)</para>
+											<para>Fr.86(P)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.10(S)</para>
+											<para>Fr.86(S)</para>
+											<para>Fr.86(S)</para>
+											<para>Fr.58(S)</para>
+											<para>Fr.58(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>14</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-警鈴(20cm)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-02甲板露天區</para>
+											<para>1-後主甲板區</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>02-60-0-X</para>
+											<para>1--4-0-X</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.65(C)</para>
+											<para>Fr.18(C)</para>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+					</levelledPara>
+					<levelledPara>
+						<title>關聯系統</title>
+						<para>(一)整合式儎臺管理系統(IPMS):主控盤傳送火警艙間區域及警報訊號/傳送至IPMS顯示。</para>
+						<para>(二)1MC廣播系統:繼電器盤傳送警報系統至1MC廣播系統發佈。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>參考文件</title>
+						<para>(一)N03543436B35A3_警報系統線路圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43600-E-2324-K5II399O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(二)N03543436B43A3_警報系統裝備佈置圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43600-E-2324-K5II400O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(三)N03542436B36A4_一般與火警警報系統廠家圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼：43600-E-2331-D5II207B-06</para>
+								</listItem>
+							</randomList></para>
+					</levelledPara>
+				</levelledPara>
+				<levelledPara>
+					<title>滅火系統釋放警報</title>
+					<levelledPara>
+						<title>功能</title>
+						<para>(一)滅火系統釋放警報為控制前機艙(左/右舷)、後機艙(左/右舷)、發電機艙、輔機艙(左/右舷)、滑油儲藏庫、油漆庫等艙間氣瓶觸發前之警報，分布於各區域的滅火釋放開關可分為兩階段，第一階段啟動後，釋放開關面板警報(alarm)燈號亮起代表接收滅火釋放警報控制盤訊號，並產生聲視警報並且同時關閉全艦通風系統，此時整合式儎臺管理系統會接收來自滅火釋放系統訊號並同時產生警報；第二階段啟動後，釋放開關面板倒數(countdown active)燈號亮起，氣瓶間控制盤便會開始計時，30秒後會將本地電磁閥動作；將滅火釋放兩邊開關調整為OFF後，按下面板的靜音(Silence)以及重置(Reset)即可執行復歸模式，系統架構圖如圖所示。</para>
+						<para>(二)系統識別區分:</para>
+						<para>重要性: 次要系統(SV)，備便狀態:第1級系統(1)。</para>
+					</levelledPara>
+					<levelledPara>
+						<title>概述</title>
+						<para>(一)主控盤位於駕駛室，可指示發生火警艙間或區域，同時火警警報系統指示盤(位於中央控制室)亦可指示發生火警艙間或區域。</para>
+						<para>(二)系統主要電力與備用電力均為DC 24V分別來自B-2D與B-3D，共有四個控制箱分別控制前機艙、後機艙、輔機艙、發電機艙&amp;油漆庫房&amp;滑油儲存庫房，各區域均有各別的釋放開關與警報器，氣瓶相關的動作流程與規格請參略「第二冊第二十三章 固定式氣體滅火系統」。</para>
+						<figureAlts>
+							<figure>
+								<title>滅火系統釋放警報架構圖</title>
+								<graphic infoEntityIdent="ICN-SIB-A-00000000-A-SIB-00001-A-002-02" reproductionWidth="150mm"/>
+							</figure>
+						</figureAlts>
+					</levelledPara>
+					<levelledPara>
+						<title>系統及設備特性</title>
+						<para>(一)滅火系統釋放警報系統安裝位置，如表2-2所示。</para>
+						<para>(二)滅火系統釋放警報系統裝備規格，如表2-3所示。</para>
+						<table id="SIB_2-2">
+							<title>表2-2 滅火放警報系統安裝位置</title>
+							<tgroup cols="5">
+								<colspec colname="col1" colwidth="13mm"/>
+								<colspec colname="col2" colwidth="52.5mm"/>
+								<colspec colname="col3" colwidth="35mm"/>
+								<colspec colname="col4" colwidth="25mm"/>
+								<colspec colname="col5" colwidth="22.5mm"/>
+								<thead>
+									<row>
+										<entry morerows="1">
+											<para>項次</para>
+										</entry>
+										<entry morerows="1">
+											<para>設備名稱</para>
+										</entry>
+										<entry align="center" namest="col3" nameend="col5">
+											<para>安裝位置</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>艙間名稱</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>艙間編號</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>肋骨Fr.</para>
+										</entry>
+									</row>
+								</thead>
+								<tbody>
+									<row>
+										<entry valign="middle" align="center">
+											<para>1</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-控制箱</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-氣瓶間</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>2</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-左輔機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-樓梯間</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>2-44-2-L</para>
+											<para>3-58-2-T</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.45(P)</para>
+											<para>Fr.58(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>3</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-右輔機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-士官兵衛浴間(1)</para>
+											<para>1-樓梯間</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>2-44-1-L</para>
+											<para>3-58-1-T</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.45(S)</para>
+											<para>Fr.58(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>4</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>5-左前機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-中央走道(2)</para>
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-後機艙(P)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>1-32-0-L</para>
+											<para>2-44-2-L</para>
+											<para>2-10-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.43(P)</para>
+											<para>Fr.45(P)</para>
+											<para>Fr.30(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>5</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>5-右前機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-中央走道(2)</para>
+											<para>1-士官兵衛浴間(1)</para>
+											<para>1-後機艙(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>1-32-0-L</para>
+											<para>2-44-1-L</para>
+											<para>2-10-1-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.43(S)</para>
+											<para>Fr.45(S)</para>
+											<para>Fr.30(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>6</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-左後機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-前機艙(P)</para>
+											<para>1-發電機艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>2-30-2-E</para>
+											<para>2--4-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.31(P)</para>
+											<para>Fr.10(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>7</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-右後機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-前機艙(S)</para>
+											<para>1-小艇艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>2-30-1-E</para>
+											<para>2--4-1-Q</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.31(S)</para>
+											<para>Fr.10(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>8</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-油漆庫滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-前主甲板</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>1-88-0-X</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.97(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>9</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-滑油庫滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-中央走道(3)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>1-18-0-L</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.28(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>10</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-發電機艙滅火釋放開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-氣瓶間</para>
+											<para>1-中央控制室</para>
+											<para>1-後機艙(P)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-2-K</para>
+											<para>1-48-2-C</para>
+											<para>2-10-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.96(P)</para>
+											<para>Fr.53(P)</para>
+											<para>Fr.11(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>11</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-左輔機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-樓梯間</para>
+											<para>1-輔機艙(P)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-44-2-L</para>
+											<para>3-58-2-T</para>
+											<para>3-44-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.45(P)</para>
+											<para>Fr.58(P)</para>
+											<para>Fr.54(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>12</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>3-右輔機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-士官兵衛浴間(1)</para>
+											<para>1-樓梯間</para>
+											<para>1-輔機艙(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-44-1-L</para>
+											<para>3-58-1-T</para>
+											<para>3-44-1-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.45(S)</para>
+											<para>Fr.58(S)</para>
+											<para>Fr.54(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>13</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>5-左前機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-中央走道(2)</para>
+											<para>1-士官兵衛浴間(2)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-前機艙(P)</para>
+											<para>1-前機艙(P)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-32-0-L</para>
+											<para>2-44-2-L</para>
+											<para>2-10-2-E</para>
+											<para>2-30-2-E</para>
+											<para>3-30-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.43(P)</para>
+											<para>Fr.45(P)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.31(P)</para>
+											<para>Fr.31(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>14</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>5-右前機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-中央走道(2)</para>
+											<para>1-士官兵衛浴間(1)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-前機艙(S)</para>
+											<para>1-前機艙(S)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-32-0-L</para>
+											<para>2-44-1-L</para>
+											<para>2-10-1-E</para>
+											<para>2-30-1-E</para>
+											<para>3-30-1-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.43(P)</para>
+											<para>Fr.45(S)</para>
+											<para>Fr.30(S)</para>
+											<para>Fr.31(S)</para>
+											<para>Fr.31(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>15</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-左後機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-前機艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-後機艙(P)</para>
+											<para>1-發電機艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-30-2-E</para>
+											<para>2-10-2-E</para>
+											<para>3-10-2-E</para>
+											<para>2--4-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.30(P)</para>
+											<para>Fr.30(P)</para>
+											<para>Fr.11(P)</para>
+											<para>Fr.10(P)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>16</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4-右後機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-前機艙(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-後機艙(S)</para>
+											<para>1-小艇艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-30-1-E</para>
+											<para>2-10-1-E</para>
+											<para>3-10-1-E</para>
+											<para>2--4-1-Q</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.30(S)</para>
+											<para>Fr.30(S)</para>
+											<para>Fr.11(S)</para>
+											<para>Fr.10(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>17</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-油漆庫電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-前主甲板</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-88-0-X</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.97(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>18</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-油漆庫防爆電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-油漆庫</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-96-1-K</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.97(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>19</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-滑油庫電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-中央走道(3)</para>
+											<para>1-滑油儲存庫</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-18-0-L</para>
+											<para>1-26-1-A</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.28(S)</para>
+											<para>Fr.28(S)</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>20</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-發電機艙電動警報器(旋轉紅燈)</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1-後機艙(P)</para>
+											<para>1-發電機艙</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>2-10-2-E</para>
+											<para>2--4-2-E</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>Fr.11(P)</para>
+											<para>Fr.10(P)</para>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+						<table pgwide="1" id="SIB_2-3">
+							<title>表2-3 滅火釋放系統裝備規格</title>
+							<tgroup cols="3">
+								<!--表格行數-->
+								<colspec colname="col1" colwidth="66mm"/>
+								<colspec colname="col2" colwidth="21mm"/>
+								<colspec colname="col3" colwidth="78mm"/>
+								<thead>
+									<!--表格標題列-->
+									<row>
+										<entry valign="middle" align="center">
+											<para>裝備</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>數量</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>說明</para>
+										</entry>
+									</row>
+								</thead>
+								<tbody>
+									<row>
+										<entry valign="middle" align="center">
+											<para>控制箱</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>4</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>電路零件廠家提供</para>
+											<para>控制箱船廠自製</para>
+											<para>主要電力:DC 24V</para>
+											<para>備用電力:DC 24V</para>
+											<para>安裝於氣瓶間</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>滅火釋放警報開關</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>26</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>廠家提供</para>
+											<para>主要電力為系統供電</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>接線箱</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>船廠自製</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>電動警報器</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>29</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>廠家提供</para>
+											<para>主要電力為系統供電</para>
+										</entry>
+									</row>
+									<row>
+										<entry valign="middle" align="center">
+											<para>電動警報器</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>1</para>
+										</entry>
+										<entry valign="middle" align="center">
+											<para>廠家提供</para>
+											<para>防爆型</para>
+											<para>主要電力為系統供電</para>
+										</entry>
+									</row>
+								</tbody>
+							</tgroup>
+						</table>
+					</levelledPara>
+					<levelledPara>
+						<title>關聯系統</title>
+						<para>(一)整合式儎臺管理系統</para>
+						<para>(二)固定式氣體滅火系統</para>
+					</levelledPara>
+					<levelledPara>
+						<title>參考文件</title>
+						<para>(一) N03543436B35A3-警報系統線路圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼:43600-E-2324-K5II399O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(二) N03543436B43A3-警報系統裝備佈置圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼:43600-E-2324-K5II400O-06</para>
+								</listItem>
+							</randomList></para>
+						<para>(三) N03542436B37A4-滅火系統釋放警報系統廠家圖
+					  <randomList>
+								<listItem>
+									<para>文件管制編碼:43600-E-2331-D5II275B-06</para>
+								</listItem>
+							</randomList></para>
+					</levelledPara>
+				</levelledPara>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>
+	</pmEntry>  
+	</content>
+</pm>
