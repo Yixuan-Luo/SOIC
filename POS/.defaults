@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <defaults>
-  <default ident="countryIsoCode" value="ZZ"/>
+  <default ident="countryIsoCode" value="TW"/>
   <default ident="inWork" value="01"/>
   <default ident="issue" value="5.0"/>
   <default ident="issueNumber" value="001"/>
-  <default ident="languageIsoCode" value="C.UTF-8"/>
+  <default ident="languageIsoCode" value="zh"/>
   <default ident="securityClassification" value="00"/>
 </defaults>
