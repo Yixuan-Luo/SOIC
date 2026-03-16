@@ -4,7 +4,7 @@
   <identAndStatusSection>
     <dmAddress>
       <dmIdent>
-        <dmCode modelIdentCode="MODEL" systemDiffCode="A" systemCode="SYS" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="AA" infoCode="000" infoCodeVariant="A" itemLocationCode="D"/>
+        <dmCode modelIdentCode="LPDPOS" systemDiffCode="AAAA" systemCode="513" subSystemCode="0" subSubSystemCode="0" assyCode="0002" disassyCode="00" disassyCodeVariant="AAA" infoCode="009" infoCodeVariant="A" itemLocationCode="D"/>
         <language languageIsoCode="zh" countryIsoCode="TW"/>
         <issueInfo issueNumber="001" inWork="00"/>
       </dmIdent>
@@ -58,12 +58,14 @@
           <levelledPara>
             <title>2.1.1 Languages</title>
             <para>Unless otherwise specified, language used in drawings and documents shall be in traditional Chinese or English-Chinese bilingualism. If other foreign language is adopted in the original documents, a cross-reference with English- Chinese version shall be provided.</para>
-            <para>除另有規定外，所有圖說及文件以繁體中文或中文/英文雙語對照書寫編製，若原始文件為其他外國語言(非中文或英文)，必須提供英文/中文對照。</para>
+            <para>除另有規定外，所有圖說及文件以繁體中文或中文/英文雙語對照書寫編製，若原始文件為其他外國語言(非中文或英文)，必須提供英文/中文對照。<internalRef internalRefId="註1" internalRefTargetType="irtt09"/></para>
           </levelledPara>
           <levelledPara>
             <title>2.1.2 SI Unit</title>
             <para>The unit of measurement must be metric or SI system. All pressure unit shall be in Bar.</para>
             <para>尺寸應用公制或SI單位表示，壓力單位應用Bar表示。</para>
+            <para>請參閱以下網站以取得更多資訊：https://www.sokaglobal.org/cht/resources/study-materials/commemorative-dates/march-16-kosen-rufu-day.html</para>
+
           </levelledPara>
           <levelledPara>
             <title>2.1.3 Format</title>
@@ -102,7 +104,7 @@
             <para>（6） Electrical/electronic equipment test standard and procedure</para>
             <para>電機/電子裝備測試標準與方法</para>
             <para>（7） Electrical / electronic components layout diagrams, wiring diagram.</para>
-            <para>電子裝備(組件)位置圖、線路圖</para>
+            <para id="註1">電子裝備(組件)位置圖、線路圖</para>
             <para>（8） Illustration and detail procedures of start-up and shut-down, including but not limited to the following: (a) safety precautions, (b) checks prior to start- up, (c) step-by-step start-up procedures, (d) checks during operation, (e) step-by-step shut-down procedures. The procedures shall be developed in Microsoft Word (*.doc) with illustration (*.jpg) and in traditional Chinese.</para>
             <para>裝備起停步驟(含圖示)包括(a)安全注意事項(b)啟動前檢查事項(c)詳細啟動程序(d)裝備啟動後操作應檢查事項(e)詳細關機程序。本項起停步驟應以中文編製，另行製作提供。</para>
           </levelledPara>

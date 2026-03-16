@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="LPDPOS" systemDiffCode="A" systemCode="043" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2026" month="03" day="13"/>
+        <dmTitle>
+          <techName/>
+          <infoName>船艦維修資訊</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany>
+        <enterpriseName>組織名稱</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>組織名稱</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <externalPubRef>
+        <externalPubRefIdent>
+          <externalPubCode></externalPubCode>
+          <externalPubTitle></externalPubTitle>
+        </externalPubRefIdent>
+      </externalPubRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <title>章節標題</title>
+        <para>內文段落</para>
+        <para><internalRef internalRefId="abc-001" internalRefTargetType="irtt09"/></para>
+      </levelledPara>
+      <levelledPara>
+        <title>船艦維修</title>
+        <levelledPara>
+          <title>維修</title>
+          <para id="abc-001">一般維修</para>
+          <table id="T-DB9B66">
+            <title>333333333</title>
+            <tgroup cols="3">
+              <colspec colname="col1" colwidth="20mm"/>
+              <colspec colname="col2" colwidth="30mm"/>
+              <colspec colname="col3" colwidth="30mm"/>
+              <thead>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>貓</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>狗</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>動物</para>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>豬</para>
+                    <para>356</para>
+                  </entry>
+                  <entry align="center" valign="middle" namest="col2" nameend="col3">
+                    <para>牛</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>
