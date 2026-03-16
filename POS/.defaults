@@ -6,4 +6,6 @@
   <default ident="issueNumber" value="001"/>
   <default ident="languageIsoCode" value="zh"/>
   <default ident="securityClassification" value="00"/>
+  <default ident="responsiblePartnerCompany" value="SOIC"/>
+  <default ident="originator" value="SOIC"/>
 </defaults>

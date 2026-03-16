@@ -6,7 +6,7 @@
       <dmIdent>
         <dmCode modelIdentCode="LPDPOS" systemDiffCode="AAAA" systemCode="513" subSystemCode="0" subSubSystemCode="0" assyCode="0001" disassyCode="00" disassyCodeVariant="AAA" infoCode="010" infoCodeVariant="A" itemLocationCode="D"/>
         <language languageIsoCode="zh" countryIsoCode="TW"/>
-        <issueInfo issueNumber="001" inWork="01"/>
+        <issueInfo issueNumber="001" inWork="00"/>
       </dmIdent>
       <dmAddressItems>
         <issueDate year="2026" month="03" day="13"/>
@@ -19,10 +19,10 @@
     <dmStatus issueType="new">
       <security securityClassification="01"/>
       <responsiblePartnerCompany>
-        <enterpriseName>組織名稱</enterpriseName>
+        <enterpriseName>SOIC</enterpriseName>
       </responsiblePartnerCompany>
       <originator>
-        <enterpriseName>組織名稱</enterpriseName>
+        <enterpriseName>SOIC</enterpriseName>
       </originator>
       <applic>
         <displayText>
@@ -160,7 +160,7 @@
             </thead>
             <tbody>
               <row>
-                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
                   <para>Specification / Particulars (裝備主要規格性能、型號)</para>
                 </entry>
                 <entry align="center" valign="middle">
@@ -186,6 +186,452 @@
                 </entry>
                 <entry align="center" valign="middle">
                   <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Supply Scope (供貨範圍)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Material List (供貨材料清單)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Weight Table (重量表)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Outline, Assembly, Construction and Foundation plan</para>
+                  <para>(外觀圖、組裝圖、構造及基座圖)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Function &amp; Performance Chart (功能及性能圖表)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>List of Accessories (安裝測試附屬件清單)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Test &amp; Inspection Procedure (測試及檢驗程序)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>3</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>2</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Technical Manual－See Appendix (A)</para>
+                  <para>技術手冊(詳附錄A)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>5</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1(1)</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Supply List of Spare Parts &amp; Tools (include sketch)</para>
+                  <para>裝備廠家供料之備品工具清單及簡圖</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col3">
+                  <para>Digital photographs for spare parts &amp; tools</para>
+                  <para>工具及備品照片</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para>1</para>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle" namest="col1" nameend="col3">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+                <entry align="center" valign="middle">
+                  <para/>
+                </entry>
+              </row>
+              <row>
+                <entry align="left" valign="middle" namest="col1" nameend="col11">
+                  <para>Remarks :</para>
+                  <para>1. All Drawings/Documents shall be provided in Microsoft Word (*.doc) or Excel (*.xls) or Access (*.mdb) or Acrobat ( *.pdf) or AutoCAD(*.dwg) format. All electronic media files shall be editable.</para>
+                  <para>所有廠家製作之圖說/文件皆需提供電子檔案，其格式為( *.doc) 或 Excel (*.xls) 或</para>
+                  <para>Access (*.mdb) 或Acrobat ( *.pdf) 或AutoCAD(*.dwg)等可編輯之電子檔。</para>
+                  <para>2. The number indicated in the bracket () is for the subsequent vessels.</para>
+                  <para>括號內數字表示後續船出圖份數。</para>
                 </entry>
               </row>
             </tbody>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="LPDPOS" systemDiffCode="AAAA" systemCode="513" subSystemCode="0" subSubSystemCode="0" assyCode="0002" disassyCode="02" disassyCodeVariant="AAA" infoCode="026" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2026" month="03" day="16"/>
+        <dmTitle>
+          <techName/>
+          <infoName>2.2 Applicable Rules and Certificates 適用法規及證書</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany>
+        <enterpriseName>SOIC</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>SOIC</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <externalPubRef>
+        <externalPubRefIdent>
+          <externalPubCode></externalPubCode>
+          <externalPubTitle></externalPubTitle>
+        </externalPubRefIdent>
+      </externalPubRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <title>Applicable Rules and Certificates 適用法規及證書</title>
+        <levelledPara>
+          <title>Class Society（船級協會）</title>
+          <table id="T-5BDEAB">
+            <title></title>
+            <tgroup cols="4">
+              <colspec colname="col1" colwidth="15mm"/>
+              <colspec colname="col2" colwidth="60mm"/>
+              <colspec colname="col3" colwidth="15mm"/>
+              <colspec colname="col4" colwidth="60mm"/>
+              <tbody>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>1</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>CRHS56高強度低合金鋼</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>2</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>GAS TURBINE</para>
+                    <para>燃氣渦輪機</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>3</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>PROPULSION MOTOR</para>
+                    <para>推進馬達</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>4</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Main Reduction Gear</para>
+                    <para>減速機</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>5</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>THRUSTER BEARING (IF NOT</para>
+                    <para>推力軸承(如未整合至減速機)</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>6</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>CPP and Shaft System</para>
+                    <para>軸系及可變螺距螺槳</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>7</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Diesel Generator</para>
+                    <para>發電機組</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>8</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Main Switchboard</para>
+                    <para>主配電盤</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>9</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Helicopter Landing and Aid Light</para>
+                    <para>(直昇機輔降燈號)</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>10</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Steering Gear</para>
+                    <para>(舵機)</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>11</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Windlass (錨機)</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>12</para>
+                  </entry>
+                  <entry align="left" valign="middle">
+                    <para>Anchor and Anchor Chain</para>
+                    <para>(錨及錨鏈)</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </levelledPara>
+        <levelledPara>
+          <title>Certificate of Conformity （原廠出廠證明及檢驗合格證明）</title>
+          <para>If the equipment is not required for inspection by Class Society, a Certificate of Conformity (or type approval certificates) shall be provided to show that the supplied equipment are new, unused products without deterioration in quality, and have been tested and examined as qualified products in compliance with required specifications.</para>
+          <para>若裝備不需船級協會檢驗，則須提供原廠出廠證明(或型式認證)及檢驗合格證明</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Submitting Schedule</title>
+          <para>One (1) original and three (3) copies of Classification Certificates (including Factory Acceptance Test Report), Certificate of Conformity, Material test records / Mill Sheet, and/or shop test record shall be provided not later than 7 days before shipment.</para>
+          <para>1份正本和3份影印本之船級協會證書、材料檢驗測試報告或材質證明、原廠檢驗測試報告等，須於裝備交運前7日提供。</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Factory Acceptance Test (FAT) 裝備製造商廠試</title>
+          <para>One month prior to fabricating start, the Maker / Supplier shall prepare the milestones of manufacturing process including Material allocation, assembly and Factory Acceptance Test. The test schedule shall be notified 2 months prior to factory acceptance test informing in writingwhich might attend the inspection / test. The test schedule and relevant test procedures shall also be submitted by e- mail to QC department for ship’s owner review two months prior to Factory Acceptance Test.</para>
+          <para>在裝備開始製造前一個月，廠家/供應商應準備製造流程，包括材料配置、組裝與廠試；裝備製造商廠試期程，需在廠試前兩個月，通知參與檢測。廠試期程及相關的測試程序需在廠試前兩個月以e-mail提送保部送船東審核。</para>
+          <para>The FAT test report, including shop test records and/or mill sheets, shall be submitted by e-mail or by courier toQC department for ship’s owner review after finishing test at once.</para>
+          <para>裝備廠試報告與材質證明文件，須於完成測試後，立即以電郵或快遞提供給保部送船東審核。</para>
+        </levelledPara>
+        <levelledPara>
+          <title>Notes</title>
+          <para>（1） Drawings, plans, and data necessary for Classification society approval shall be submitted directly by the maker/supplier.</para>
+          <para>必須送驗船協會審核之圖面或資料，直接由廠家/供應商自行送審</para>
+          <para>（2） One (1) copy of Classification society approved drawing / plan / data shall be sent toby the maker/supplier.</para>
+          <para>廠家/供應商必須複製一份驗船協會審核通過之圖面與資料送給船廠</para>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

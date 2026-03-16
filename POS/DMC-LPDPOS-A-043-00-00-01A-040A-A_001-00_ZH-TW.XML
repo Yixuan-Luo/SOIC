@@ -54,13 +54,12 @@
       <levelledPara>
         <title>章節標題</title>
         <para>內文段落</para>
-        <para><internalRef internalRefId="abc-001" internalRefTargetType="irtt09"/></para>
       </levelledPara>
       <levelledPara>
         <title>船艦維修</title>
         <levelledPara>
           <title>維修</title>
-          <para id="abc-001">一般維修</para>
+          <para>請參閱以下網站以取得更多資訊：https://www.soic.org.tw/</para>
           <table id="T-DB9B66">
             <title>333333333</title>
             <tgroup cols="3">
