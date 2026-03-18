@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE dmodule>
+<!DOCTYPE dmodule [
+	<!NOTATION PNG SYSTEM "PNG">
+	<!ENTITY ICN-POS-A-00000000-A-POS-00001-A-001-01 SYSTEM "ICN-POS-A-00000000-A-POS-00001-A-001-01.PNG" NDATA PNG>
+]>
 <dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
   <identAndStatusSection>
     <dmAddress>
@@ -96,7 +99,7 @@
           <para><internalRef internalRefId="小時HR" internalRefTargetType="irtt09"/></para>
           <para>2.3.1 Supply scope for spare parts 裝備供應商應提供之備品內容範圍</para>
           <para>The maker/supplier shall provide enough spare parts as follows：</para>
-          <para>（1） In compliance with CR or ABS Classification Society Rules for ships with unrestricted service. (CR or ABS 船級協會無水域限制船舶備品量規定)</para>
+          <para>（1） In compliance with CR or ABS Classification Society Rules for ships with unrestricted service. (CR or ABS 船級協會無水域限制船舶備品量規定)<internalRef internalRefId="狗" internalRefTargetType="irtt09"/></para>
           <para>（2） 2-years on-board spare parts (艦上保養二年備品)</para>
           <para>A. The 2-years on-board spare parts will be loaded shipboard at ship delivery, and are intended to be used for maintenance by ship crews.</para>
           <para>艦上保養二年備品係提供艦上官兵執行週期性檢查、保養或更換之保養維修零附件。</para>
@@ -110,6 +113,13 @@
           <para>(f) Others (其他)。</para>
           <para>The quantity shall meet two (2) years requirement of periodical check or change-out. The ship is estimated with 2000 operating hours per year.</para>
           <para id="小時HR">依據裝備技術手冊及裝備廠家保養維修作業經驗，將保養週期為(每日、每週、每月、每季、每半年、每年、每兩年)需週期性檢查或更換之保養維修零附件，(包括但不限於：防蝕鋅極或鋅塊、過濾器濾芯、皮帶、機械軸封、油脂)，裝備廠家/供應商應提供2年份定期檢查或更換所需備用數量。本船預估每年執行任務操作時數2000小時。</para>
+          <para id="狗">以下圖片供作參考：</para>
+          <figureAlts>
+            <figure>
+              <title>狗</title>
+              <graphic infoEntityIdent="ICN-POS-A-00000000-A-POS-00001-A-001-01" reproductionWidth="150mm"/>
+            </figure>
+          </figureAlts>
         </levelledPara>
       </levelledPara>
     </description>
