@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+	<!NOTATION JPG  SYSTEM "JPEG">
+	<!ENTITY ICN-SOIC-A-51AE5D-0-A-2ED3-A SYSTEM "ICN-SOIC-A-51AE5D-0-A-2ED3-A.JPG" NDATA JPG>
+	<!ENTITY ICN-SOIC-A-8BD130-0-A-81EC-A SYSTEM "ICN-SOIC-A-8BD130-0-A-81EC-A.JPG" NDATA JPG>
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_6/xml_schema_flat/descript.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="TEST" systemDiffCode="AAAA" systemCode="123" subSystemCode="0" subSubSystemCode="0" assyCode="0001" disassyCode="00" disassyCodeVariant="AAA" infoCode="040" infoCodeVariant="A" itemLocationCode="D"/>
+        <language languageIsoCode="zh" countryIsoCode="TW"/>
+        <issueInfo issueNumber="001" inWork="00"/>
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2026" month="03" day="24"/>
+        <dmTitle>
+          <techName/>
+          <infoName>工具介紹與實驗步驟</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01"/>
+      <responsiblePartnerCompany>
+        <enterpriseName>SOIC</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator>
+        <enterpriseName>SOIC</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>All</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="SIBBREX" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified/>
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <externalPubRef>
+        <externalPubRefIdent>
+          <externalPubCode></externalPubCode>
+          <externalPubTitle></externalPubTitle>
+        </externalPubRefIdent>
+      </externalPubRef>
+    </refs>
+    <description>
+      <levelledPara>
+        <title>2.3 工具介紹與實驗步驟</title>
+        <levelledPara>
+          <title>2.3.1工具介紹</title>
+          <para>本研究之測試環境選用LM Studio，模型選用gemma-3-4b-it 模型作為生成式AI核心，LM Studio 是一個專為本地運行和管理生成式 AI 模型設計的平台，允許用戶在資源受限的硬體（如 4-6GB 記憶體）上部署輕量化大規模語言模型（LLM），無需依賴雲端服務。它支援多種模型格式（如 GGUF、PyTorch），並提供直觀的圖形化介面，簡化模型載入、參數調整和推理流程。LM Studio 的選用得益於其低階硬體相容性、本地化部署、易用性和成本效益。它針對低記憶體環境優化，能在 4-6GB 記憶體設備上高效運行 gemma-3-4b-it 模型，無需高階 GPU 或大容量記憶體，適合硬體資源有限的研究環境。所有運算在本地完成，無需上傳敏感的 S1000D 規範文件至雲端，確保資料安全與隱私。其圖形化介面降低技術門檻，開放性支援與 NumPy、Sentence-BERT 等工具整合，便於快速迭代和調整生成流程。作為開源工具，LM Studio 無需訂閱費用或雲端運算成本，相較於專業向量資料庫（如 Faiss、Pinecone）或雲端 AI 服務，顯著降低研究成本，適合資源有限的項目。</para>
+          <para>為生成符合 S1000D 規範的 XML 文件，本研究採用 RAG（Retrieval-Augmented Generation，檢索增強生成）技術，從 S1000D Issue 6 手冊和入級規範文件中檢索相關內容，補充 gemma-3-4b-it 模型在專業領域的知識不足，確保生成內容的準確性和規範性。RAG 通過語義檢索提取與用戶查詢（如船舶技術規範）最相關的文本塊，作為生成 XML 的上下文，增強結果的針對性，並處理 S1000D 文件的複雜嵌套結構和元數據要求，避免直接生成時的內容偏差。gemma-3-4b-it 未針對 S1000D 標準或船舶技術詞彙微調，RAG 通過檢索外部文件補充上下文，克服模型局限。RAG 實現分為三階段：資料預處理將文件轉換為結構化文本塊，使用 Sentence-BERT 生成語義嵌入，儲存於基於 NumPy 的本地向量資料庫，因硬體限制未採用 Faiss 或 Pinecone。NumPy 是一款 Python 開源數值計算庫，廣泛用於陣列操作與線性代數計算，其簡單且無外部依賴的特性使其適合快速原型設計與本地向量儲存，但相較於專業向量資料庫（如 Faiss 或 Pinecone），檢索速度較慢。Sentence-BERT 是一款基於 BERT 的句嵌入模型，由 Hugging Face 及相關研究團隊開發，專為語義相似性計算與文本嵌入生成設計，通過將句子轉換為高維向量，支援餘弦相似度計算以實現高效語義檢索；檢索階段根據用戶查詢，通過餘弦相似度計算提取相關文本塊；生成階段將檢索上下文與系統提示結合，輸入 gemma-3-4b-it 生成 XML。LM Studio 作為本地化平台，無縫支援 RAG 流程。其開放環境允許在本地執行資料預處理，儲存語義嵌入，無需雲端服務。檢索階段，LM Studio 支援運行 Python 腳本或 Sentence-BERT，傳遞檢索結果至模型。生成階段，LM Studio 負責將上下文與提示結合，調整參數確保輸出品質。本地化特性確保資料隱私，支援輕量模型和外部工具整合，使 RAG 各階段高效協作。</para>
+          <para>儘管受限於 NumPy 向量資料庫的低檢索速度、gemma-3-4b-it 的 2048 token 上下文窗口，以及中文技術詞彙和 S1000D 結構對 Sentence-BERT 嵌入的挑戰，檢索效率和生成品質有待提升。為提升檢索效率，LM Studio 提供靈活的擴展性，未來可通過其支援的 Python 環境和插件功能，整合專用向量資料庫（如 Faiss 或 Pinecone），取代 NumPy 向量資料庫。具體而言，可在 LM Studio 中安裝 Faiss 的 Python 套件（faiss-cpu 或 faiss-gpu），將語義嵌入儲存至高效索引結構（如 IndexIVFFlat 或 IndexHNSW），利用其快速近似最近鄰搜尋演算法，大幅提升多頁 S1000D 文件的檢索速度；或註冊 Pinecone 帳戶，透過其 Python 客戶端（pinecone-client）上傳嵌入至雲端索引，借助雲端運算能力加速檢索。Pinecone 是一款由 Pinecone 公司開發的商業雲端向量資料庫服務，通過 API 提供高效語義搜尋與向量管理，適合需要雲端擴展性的應用場景，但需穩定網路連線與訂閱費用。整合前需確認硬體相容性（Faiss 需優化記憶體使用，Pinecone 需穩定網路），建立索引（Faiss 儲存本地，Pinecone 建於雲端），並修改 RAG 檢索程式碼以呼叫新資料庫的搜尋功能，同時在 LM Studio 中實作自動化腳本或插件，簡化索引管理和查詢流程。這些改進將搭配採用更大上下文窗口的模型以納入多頁文件內容，使用針對中文技術詞彙和 S1000D 標準優化的嵌入模型，或微調 gemma-3-4b-it，進一步提升語義檢索準確性和生成品質，並利用 LM Studio 的 API 實現 RAG 流程的自動化整合。總之，LM Studio 憑藉硬體相容性、本地化部署、易用性和成本效益，與 RAG 技術深度整合，支援語義檢索到上下文生成的完整流程，彌補模型不足，生成符合 S1000D 規範的 XML 文件，並具備導入專用向量資料庫和其他進階功能的潛力，未來優化將顯著提升系統效能。[23, 24]。</para>
+          <para>為生成XML結構，在系統提示（System prompt）上明確要求處理文字和表格，確保文字嵌套於&lt;levelledPara&gt;，表格生成為&lt;table&gt;結構，並強調特殊符號轉義。生成之模型提示參數如表2-3：</para>
+          <table id="T-7E6BBD">
+            <title>表2-3 生成器提示詞摘要表</title>
+            <tgroup cols="3">
+              <colspec colname="col1" colwidth="40mm"/>
+              <colspec colname="col2" colwidth="55mm"/>
+              <colspec colname="col3" colwidth="55mm"/>
+              <thead>
+                <row>
+                  <entry align="center" valign="middle" morerows="1">
+                    <para>提示類型</para>
+                  </entry>
+                  <entry align="center" valign="middle" namest="col2" nameend="col3">
+                    <para>提示詞內容摘要</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>儲存格</para>
+                  </entry>
+                  <entry align="center" valign="middle">
+                    <para>分割測試</para>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>System Prompt</para>
+                    <para>(合併測試)</para>
+                  </entry>
+                  <entry align="center" valign="middle" namest="col2" nameend="col3">
+                    <para>要求處理文字和表格，生成完整 &lt;dmodule&gt;，確保特殊符號轉變為 XML 實體寫法，並依照S1000D標準手冊，嚴格遵循 S1000D 規範。</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry align="center" valign="middle">
+                    <para>User Prompt</para>
+                  </entry>
+                  <entry align="center" valign="middle" namest="col2" nameend="col3">
+                    <para>要求分析上傳檔案生成符合S1000D issue6之XML文件。</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </levelledPara>
+        <levelledPara>
+          <title>2.3.2研究步驟</title>
+          <para>本研究的目標是將非S1000D格式的規範手冊（如本研究中PDF格式的「海巡艦艇建造與入級規範2025」）轉換為符合S1000D Issue 6標準的XML文件，利用LM Studio平台和gemma-3-4b-it模型，結合RAG技術，研究操作步驟如下：</para>
+          <para>(1)	下載「海巡艦艇建造與入級規範2025.pdf」：可至交通部航港局官方網站下載專區中，找到海巡艦艇建造與入級規範區域並下載「海巡艦艇建造與入級規範2025中文」。</para>
+          <para>(2)	下載LM Studio：至LM Studio官方網站下載區域中下載，LM Studio是一個用於在本地運行開源大型語言模型（LLMs）的跨平台桌面應用程式，支援Mac、Windows和Linux系統，讓用戶能輕鬆下載、配置和實驗來自Hugging Face的模型，例如Llama、Mistral及本研究所使用的Gemma等。它的優勢包括友好的用戶界面，無需複雜的技術知識即可快速上手；支援離線運行，確保數據隱私；並能利用本地GPU加速，提升模型性能。透過LM Studio，用戶可以完全掌控AI部署，無需依賴雲端服務，適合開發者、研究人員或對AI感興趣的個人進行本地化實驗與應用。</para>
+          <para>(3)	開啟LM Studio並下載模型：開啟LM Studio並找到Discover以尋找可下載的模型（如圖2.6）。在介面中可搜尋欲使用之模型，本研究選用Gemma-3-4B模型，找到模型後點擊Download下載模型（如圖2.7）即可在LM Studio內安裝Gemma-3-4B模型。Gemma-3-4b-it 是一款由 Google 開發的輕量化大型語言模型，基於 Transformer 架構，擁有 40 億參數，設計用於通用語言生成任務，特別適合資源受限的本地部署環境。其高效能與低記憶體需求使其適配 LM Studio 的低階硬體相容性。</para>
+          <figureAlts>
+            <figure>
+              <title>圖2.6 LM Studio介面-尋找模型</title>
+              <graphic infoEntityIdent="ICN-SOIC-A-8BD130-0-A-81EC-A" reproductionWidth="150mm"/>
+            </figure>
+          </figureAlts>
+          <figureAlts>
+            <figure>
+              <title>圖2.7 LM Studio介面-模型下載</title>
+              <graphic infoEntityIdent="ICN-SOIC-A-51AE5D-0-A-2ED3-A" reproductionWidth="150mm"/>
+            </figure>
+          </figureAlts>
+        </levelledPara>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>
